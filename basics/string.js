@@ -23,3 +23,4 @@ let string3 =searchstring.replace('string' , 'number');
 let answer = '     this is the answer      ';
 let ans1 = answer.trim();
 console.log(ans1);
+console.log(answer);
