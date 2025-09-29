@@ -25,3 +25,4 @@ console.log(student.name);
 console.log(student.grade);
 delete student.grade();
 console.log(student.grade);
+console.log()
