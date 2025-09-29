@@ -1,0 +1,18 @@
+let heros = ["superman","batman","wonderwoman"];
+// console.log(heros);
+const arr1=[10,20];
+const arr2=[30,40];
+const arr3=[50,60];
+const result = arr1.concat(arr2,arr3);
+// console.log(result);    
+const merged= [...arr1,...arr2,...arr3];
+// console.log(merged);
+const merged2= [...arr1,...arr2,...arr3,55,66,77];
+// console.log(merged2);
+let  copy = [...arr2];
+// console.log(copy);
+const nested = [10,20,,[30,[40,50,60],70],88];
+// console.log(nested.flat());
+// console.log(nested.flat(1));
+// console.log(nested.flat(Infinity));
+console.log(Array.isArray("merged"));
