@@ -8,4 +8,7 @@ let items = [];
 
 if (items) {
   console.log("Array exists!");
+}else{
+  console.log("array doesn't exist");
+  
 }
